@@ -83,6 +83,8 @@ data/*.db # More general rule
 # If your XML files are too large for GitHub (over 100MB often problematic),
 # add them here. Otherwise, remove these lines if you want to include them.
 # data/*.xml
+data/sales*.xml
+data/godowns/*.xml # Ignore actual godown stock files
 
 # Output files
 outputs/
