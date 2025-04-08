@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<ENVELOPE>
+ <BODY>
+  <DESC>
+   <STATICVARIABLES>
+    <SVFROMDATE TYPE="Date">20250330</SVFROMDATE>
+    <SVTODATE TYPE="Date">20250330</SVTODATE>
+    <STOCKGODOWNNAME>Main Location</STOCKGODOWNNAME> <!-- Match the name -->
+   </STATICVARIABLES>
+  </DESC>
+  <DATA>
+   <TALLYMESSAGE>
+    <DSPACCNAME>
+     <DSPDISPNAME>PRODUCT ALPHA-100ML</DSPDISPNAME> <!-- Match product name format -->
+    </DSPACCNAME>
+    <DSPSTKINFO>
+     <DSPCLQTY> 250 No's</DSPCLQTY> <!-- Sample Closing Quantity -->
+     <!-- Other DSP tags if present -->
+    </DSPSTKINFO>
+   </TALLYMESSAGE>
+   <TALLYMESSAGE>
+    <DSPACCNAME>
+     <DSPDISPNAME>PRODUCT BETA-250</DSPDISPNAME>
+    </DSPACCNAME>
+    <DSPSTKINFO>
+     <DSPCLQTY> 55 No's</DSPCLQTY>
+    </DSPSTKINFO>
+   </TALLYMESSAGE>
+   <TALLYMESSAGE>
+    <DSPACCNAME>
+     <DSPDISPNAME>SPRAY 300ML</DSPDISPNAME> <!-- Include your key item -->
+    </DSPACCNAME>
+    <DSPSTKINFO>
+     <DSPCLQTY> 50 No's</DSPCLQTY> <!-- Give it some stock -->
+    </DSPSTKINFO>
+   </TALLYMESSAGE>
+   <TALLYMESSAGE>
+    <DSPACCNAME>
+     <DSPDISPNAME>SOME_OTHER_ITEM</DSPDISPNAME>
+    </DSPACCNAME>
+    <DSPSTKINFO>
+     <DSPCLQTY> 20 No's</DSPCLQTY>
+    </DSPSTKINFO>
+   </TALLYMESSAGE>
+   <!-- Add a few more sample items -->
+  </DATA>
+ </BODY>
+</ENVELOPE>
